@@ -1,0 +1,38 @@
+.footer {
+
+    .footer-flex-container {
+        height: 200px;
+        width: 100%;
+        background-color: #202020;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .footer-logo-container {
+
+            width: auto;
+            padding-bottom: 5px;
+
+            #footer-logo-image {
+                height: 50px;
+                width: auto;
+                background-color: #202020;
+            }
+
+        }
+
+        .footer-logo-text {
+            h2 {
+                color: white;
+                font-family: 'Capriola', sans-serif;
+            }
+        }
+
+        .copyright-text {
+            p {
+                color: white;
+            }
+        }
+    }
+}
