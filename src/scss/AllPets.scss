@@ -1,0 +1,119 @@
+.pets-flex-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff3e6;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+
+    .frontpage-left-container {
+        width: 50%;
+    }
+
+    #front-page-pet {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-top: 150px;
+    }
+
+    .button-container {
+        width: 100%;
+        min-height: 58px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        background-color: #0d335d;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .bar-pet-name {
+            width: 30%;
+            display: block;
+            text-align: left;
+            color: white;
+        }
+
+        .bar-buttons-container {
+            width: 70%;
+            display: block;
+            text-align: right;
+
+            h3 {
+                color: white;
+            }
+        }
+    }
+
+    #go-to-pets-button {
+        height: auto;
+        width: 100px;
+        border-radius: 5px;
+        background-color: #181818;
+        padding: 5px;
+        margin-left: 10px;
+        text-align: center;
+        border: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    .pet-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        border-radius: 20px;
+        padding: 25px;
+        background-color: honeydew;
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+        color:black;
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        h1 {
+            color:white;
+            padding: 5px;
+        }
+
+        .image-container {
+
+            height: 100%;
+            width: 50%;
+            padding: 5px;
+            background-color: aqua;
+            border-radius: 50%;
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+
+        .text-container {
+            width: 50%;
+            height: auto;
+            padding: 5px;
+
+            h3 {
+                padding: 5px;
+            }
+
+            p {
+                padding: 5px;
+            }
+        }
+    }
+}

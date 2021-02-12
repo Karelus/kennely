@@ -1,3 +1,7 @@
+.flex-container {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .logo-container {
     width: 30%;
     display: flex;
@@ -44,6 +48,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            box-shadow: none !important;
     
             li {
                 float: left;
@@ -105,7 +110,7 @@
 
 /* screens less that 600px */
 @media (max-width: 800px) {
-    .flex-container {
+    .header-flex-container {
         height: 70px;
 
         .logo-container {

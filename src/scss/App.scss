@@ -9,10 +9,52 @@ body {
   background-color: #181818;
 }
 
-.flex-container {
+.header-flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: #202020;
   height: 70px;
 }
+
+.frontpage-banner-container {
+  width: 60%;
+  background-color: darkslategrey;
+  height: 200px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+// for normal black buttons
+.black-button {
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  background-color: #181818;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  &:hover {
+      color: black;
+      background-color: white;
+
+     a {
+      text-decoration: none;
+      color: black;
+      }
+  }
+}
+
