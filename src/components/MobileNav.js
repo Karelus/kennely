@@ -1,3 +1,5 @@
+import '../scss/MobileNav.scss';
+
 function MobileNav() {
     return (
         <div className="navigation">

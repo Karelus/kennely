@@ -7,6 +7,8 @@ import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPaw } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
+import '../scss/Header.scss';
+
 function Header( { logo } ) {
 
     function handleClick() {   
@@ -15,7 +17,7 @@ function Header( { logo } ) {
     }
 
     return (
-        <div className="flex-container">
+        <div className="header-flex-container">
             <div className="logo-container">
                 <a href="#"><img src={logo} alt="logo" id="logo-image"></img></a>
                 <a href="#"><h2>Kennely</h2></a>
