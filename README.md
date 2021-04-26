@@ -1,8 +1,8 @@
 # From the author
 
-UI for pet management application
-Developed with React and jQuery
-Author: Karel Haapasalo
+UI for pet management application.
+Developed with React, jQuery and SCSS.
+Author: Karel Haapasalo.
 
 # Getting Started with Create React App
 
